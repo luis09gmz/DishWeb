@@ -33,12 +33,48 @@ table tr:hover{
   background: #CA0025;
 }
 
-.botones{
+.a{
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  align-items: center;
+}
+
+.b{
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 button{
+  background: #00181E;
+  color: white;
+  border-radius: 6px;
+  border-color: coral;
+
+}
+
+
+.busqueda{
+  height: auto;
   margin: 20px;
+}
+
+
+
+@media (max-width: 689px){
+  main{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+  }
+
+  .busqueda{
+    align-items: center;
+  }
+
+  @media (max-width: 689) {
+
+  }
+
+
 }
