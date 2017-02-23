@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="img/logo.jpg">
+    <link rel="stylesheet" href="css/cabecera.css">
+    <link rel="stylesheet" href="css/perfilUsuario.css">
+    <title>Perfil</title>
+    <div class="cabecera">
+    <a href="">Inicio</a>
+    <a href="">Categorias</a>
+    <a href="">Recetas</a>
+    <a href="">Perfil</a>
+    <a href="">Acerca de nosotros</a>
+    <a href="#">Registrate</a>
+    <a href="#">Inicia sesion</a>
+    </div>
+  </head>
+  <body>
+    <h1>Hola Bienvenido</h1>
+    <main>
+      <form action="nuevoUsuario.html" method="post"/>
+        <label class="sub" for="titulo">A continuacion la informacion acerca de tu perfil</label>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Datos del usuario"/>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Datos del usuario"/>
+        <label for="email">Correo electronico</label>
+        <input type="email" id="email" name="email" placeholder="Datos del usuario"/>
+        <label for="password">Contraseña</label>
+        <input type="password" id="password"name="Contraseña" placeholder="Datos del usuario"/>
+        <label for="passwordR">Contraseña*</label>
+        <input type="password" id="passwordR"name="ContraseñaR" placeholder="Datos del usuario"/>
+        <label for="sexoH">Hombre</label>
+        <input type="radio" id="sexoH" name="sexo" value="Hombre">
+        <label for="sexoM">Mujer</label>
+        <input type="radio" id="sexoM" name="sexo" value="Mujer">
+        <button type="button" name="buttonf">Guardar</button>
+      </form>
+
+      <div class="imagen"><img src="img/perfil.png"/>
+        <span>Selecciona tu foto de perfil</span>
+      </div>
+
+    </main>
+    <footer>
+        <p class="contacto">Contacto</p>
+      <div class="pie">
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">WhatsApp</a>
+        <a href="#">E-Mail</a>
+      </div>
+    </footer>
+  </body>
+</html>

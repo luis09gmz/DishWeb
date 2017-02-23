@@ -1,0 +1,51 @@
+.cabecera, .pie{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+a {
+  font-size: 18px;
+  color: white;
+  text-decoration:none;
+  padding: 10px 50px;
+  background: #00181E;
+  margin: 1px;
+}
+
+a:link {
+  color: white;
+}
+
+a:hover {
+  background: transparent;
+  color: black;
+}
+
+.contacto {
+  color: #fff;
+  font-size: 80px;
+  font-family: cursive;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+@media(max-width:600px) {
+  .contacto{
+    font-size: 40px;
+  }
+
+  a{
+    font-size: 14px;
+    padding: 6px 40px;
+    margin: 1px;
+  }
+
+  .cabecera, .pie{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}
