@@ -1,0 +1,49 @@
+h1{
+  font-size: 24px;
+  text-align: center;
+  margin-top: 36px;
+  height: 70px;
+}
+
+body{
+  background: gray;
+  background: url("../img/madera.jpg");
+}
+
+img{
+  width: 128px;
+  margin: 20px;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+main div{
+  display: flex;
+  align-items: center;
+  border: solid coral;
+  margin: 2px;
+}
+
+button{
+  margin: 10px;
+  background: #00181E;
+  color: white;
+  border-radius: 6px;
+  border-color: coral;
+}
+
+@media (max-width: 600px) {
+  main div{
+    display: flex;
+    flex-direction: column;
+    border: solid coral;
+    margin: 2px;
+  }
+
+
+}

@@ -31,7 +31,7 @@ a:hover {
   text-align: center;
 }
 
-@media (min-width: 320px) and  (max-width:600px) {
+@media(max-width:600px) {
   .contacto{
     font-size: 40px;
   }
