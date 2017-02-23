@@ -29,3 +29,5 @@
 //Favoritos: en esta pagina se muestran las recetas que el usuario resalta o destaca para poder visitar posteriomente
 
 //Mis Recetas: mostrara todas las recetas subidas por el mismo usuario.
+
+//Pagina actual-. http://dishweb.000webhostapp.com/
