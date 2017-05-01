@@ -1,0 +1,55 @@
+#Informacion{
+	display: -webkit-flex;
+    display: flex;
+    flex-direction:column;
+    width: 66%;
+    border: 2px solid black;
+
+}
+#Extra{
+	display: -webkit-flex;
+    display: flex;
+    flex-direction:column;
+    width: 34%;
+    border: 2px solid black;
+}
+#Ingreso{
+	display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    border: 2px solid black;	
+}
+.Dato{
+	width: 100%;
+	height: 3em;
+	border: 2px solid green;
+}
+#Imagen{
+	display: -webkit-flex;
+    display: flex;
+    
+    width: 60%;
+    height: 49%;
+    border: 2px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+#Relleno{
+	display: -webkit-flex;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    
+    width: 60%;
+    height: 20%;
+    border: 2px solid red;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+#BAceptar, #BCancelar{
+	margin-right: auto;
+	margin-left: auto;
+}
