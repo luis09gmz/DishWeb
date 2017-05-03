@@ -20,6 +20,9 @@
     border: 2px solid black;	
 }
 .Dato{
+    display: -webkit-flex;
+    display: flex;
+     align-items:center;
 	width: 100%;
 	height: 3em;
 	border: 2px solid green;
@@ -52,4 +55,7 @@
 #BAceptar, #BCancelar{
 	margin-right: auto;
 	margin-left: auto;
+}
+.Entrada{
+    margin: auto;
 }
